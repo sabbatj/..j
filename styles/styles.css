@@ -193,6 +193,7 @@ section {
   filter: grayscale(0);
 }
 .header-content .right-header {
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: center;
