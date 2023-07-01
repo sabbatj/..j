@@ -202,8 +202,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start; /* Align text to the left */
-  padding-left: 5rem; /* Add padding to the left */
-  padding-right: 5rem; /* Add padding to the right */
+  padding-left: 2rem; /* Add padding to the left */
+  padding-right: 2rem; /* Add padding to the right */
 }
 
 .header-content .right-header .name {
