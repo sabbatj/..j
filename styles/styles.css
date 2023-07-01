@@ -151,14 +151,10 @@ section {
   color: var(--color-grey-2);
   pointer-events: none;
 }
-
 /*Header-content*/
-/* Header-content */
 .header-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   min-height: 100vh;
 }
 
@@ -202,8 +198,12 @@ section {
 }
 
 .header-content .right-header {
-  text-align: center;
-  padding-right: 0; /* Remove unnecessary padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text to the left */
+  padding-left: 2rem; /* Add padding to the left */
+  padding-right: 2rem; /* Add padding to the right */
 }
 
 .header-content .right-header .name {
@@ -218,6 +218,7 @@ section {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
+
 /*About*/
 .about-container {
   display: grid;
